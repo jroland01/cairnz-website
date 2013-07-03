@@ -2,6 +2,10 @@
 ###################
 *.markdown
 *.md
+
+.cache
+logs
+
 !README.md
 !.gitignore
 
