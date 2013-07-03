@@ -2,5 +2,8 @@
 ###################
 *.markdown
 *.md
+!README.md
+!.gitignore
+
 
 
