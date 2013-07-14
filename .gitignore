@@ -6,6 +6,8 @@
 .cache
 logs
 .DS_Store
+output-site
+images
 
 !README.md
 !.gitignore
