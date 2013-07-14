@@ -1,0 +1,30 @@
+section#differentiateurs article {
+	width: 31.2%;
+	height: 15em;
+	float: left;
+}
+
+article#strategie, article#conception {
+	margin-left: 0;
+}
+
+article#complexite, article#rechercheutilisateur, article#realisation, article#international {
+	margin-left: 3.2%;
+}
+
+article#rechercheutilisateur, article#realisation {
+	clear: none;
+}
+
+article#conception {
+	clear: left;
+}
+
+section#demarche {
+	clear: both;
+}
+
+
+
+
+

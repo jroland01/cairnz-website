@@ -1,22 +1,63 @@
-{% from 'macros/nav.jinja' import menu with context -%}
+<!--{% from 'macros/nav.jinja' import menu with context -%}-->
 <!DOCTYPE html>
 <html lang="en">
 {% block head -%}
 {% include 'macros/_head.html' -%}
 {% endblock %}
 <body>
+    <header class="wrapper-header">
+        <h1>
+            <a href="/"><img src="/images/cairnz logo130701.png"></a>
+        </h1>
+        <div class="mobile-menu" id="home">
+            <a href="#nav" class="menu-footer-anchor">Menu</a>
+            <a href="tel:+41 22 5752054" class="tel">+41 (0) 22 5752054</a>
+        </div>
+        <div class="contact-details">
+            <span class="tel">+41 (0) 22 5752054</span>
+            <a href="mailto:info@cairnzergo.com" class="email">info@cairnzergo.com</a>
+            <a href="https://twitter.com/cairnzergo" class="twitter">@cairnzergo</a>
+        </div>
+    </header>
+
     {% block page -%}
-    <div id="page">
+    <div id="wrapper-page">
     {{ content }}
     </div>
     {% endblock %}
-    <nav>
+    
+    <!--<nav>
     {% block nav_menu -%}
     {{ menu() }}
     {%- endblock %}
-    </nav>   
-    {% block footer -%}
+    </nav>-->
+    
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#demarche">Demarche</a>
+            </li>
+            <li>
+                <a href="#clients">Nos Clients</a>
+            </li>
+            <li>
+                <a href="#equipe">L'equipe</a>
+            </li>
+            <li>
+                <a href="#partenaires">Partenaires</a>
+            </li>
+            <li>
+                <a href="#equipe">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!--{% block footer -%}
     {% include 'macros/_footer.html' %}
-    {%- endblock %}
+    {%- endblock %}-->
+
 </body>
 </html>

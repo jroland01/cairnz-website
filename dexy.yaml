@@ -1,6 +1,6 @@
 site:
-    - .markdown|jinja|pandoc:
-        - pandoc: { args: '-t html5' }
+    - index.md|yamlargs|jinja|markdown|htmlsections:
+        - ws-template: _template.html
 
 assets:
     - .css

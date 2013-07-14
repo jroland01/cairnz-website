@@ -1,7 +1,48 @@
 {% extends '_base.html' -%}
 
 {% block page -%}
-<div id="page">
-    {{ content }}
+<div id="wrapper-page">
+
+	<section id="synopsis">
+		{{ content.synopsis }}
+	</section>
+
+	<section id="differentiateurs">
+		<article id="strategie">
+			{{ content.strategie }}	
+		</article>
+		<article id="complexite">
+			{{ content.complexite }}	
+		</article>
+		<article id="rechercheutilisateur">
+			{{ content.rechercheutilisateur }}	
+		</article>
+		<article id="conception">
+			{{ content.conception }}	
+		</article>
+		<article id="realisation">
+			{{ content.realisation }}	
+		</article>
+		<article id="international">
+			{{ content.international }}	
+		</article>
+	</section>
+
+	<section id="demarche">
+		{{ content.demarche }}	
+	</section>
+		
+	<section id="clients">
+		{{ content.clients }}	
+	</section>
+
+	<section id="equipe">
+		{{ content.equipe }}	
+	</section>
+
+	<section id="partenaires">
+		{{ content.partenaires }}	
+	</section>
+
 </div>
 {% endblock -%}

@@ -1,0 +1,113 @@
+.wrapper-header .mobile-menu {
+    display: none;
+}
+
+.wrapper-header .contact-details {
+	display: inline-block;
+	width: 100%;
+    height: 2.5em;
+    padding-top: 0.5em;
+    text-align: right;
+    color: #1a1919;
+    text-shadow: none;
+}
+
+.contact-details .tel, .email, .twitter {
+	border: none;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+.contact-details .tel {
+	background: url(/images/phone.png) no-repeat left center;
+	background-size: contain;
+}
+
+.contact-details .email {
+	background: url(/images/mail.png) no-repeat left center;
+	background-size: contain;
+}
+
+.contact-details .twitter {
+	background: url(/images/twitter.png) no-repeat left center;
+	background-size: contain;
+	padding-right: 10px;
+}
+
+.wrapper-header h1 {
+    position: absolute;
+    top: 3em;
+    left: 40px;
+    display: block;
+    width: 60px;
+    height: 65px;
+    margin-left: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+    font-size: 1em;
+}
+
+#nav {
+	position: absolute;
+	top: 3em;
+	left: 120px;
+	width: 100%;
+	height: 2em;
+	padding-top: 1em;
+	margin: 0;
+}
+
+#nav ul {
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #397b8f;
+	margin: 0;
+	overflow: hidden;
+}
+
+#nav li {
+	float: left;
+	background-color: #ededed;
+}
+
+#nav ul a {
+	width: 8em;
+	display: block;
+	text-align: center;
+
+}
+
+#wrapper-page {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#differentiateurs article {
+	width: 48.4%;
+	height: 17em;
+	float: left;
+	border-radius: 0 30px 10px 5px;
+}
+
+article#strategie, article#rechercheutilisateur, article#realisation {
+	margin-left: 0;
+}
+
+article#complexite, article#conception, article#international {
+	margin-left: 3.2%;
+}
+
+article#rechercheutilisateur, article#realisation {
+	clear: left;
+}
+
+section#demarche, section#clients, section#equipe, section#partenaires {
+	clear: both;
+	padding-top: 1em;
+}
+
+section#clients, section#equipe, section#partenaires {
+	border-top: 2px solid whitesmoke; 
+}
+
