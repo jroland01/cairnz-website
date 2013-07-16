@@ -19,17 +19,17 @@
 }
 
 .contact-details .tel {
-	background: url(/images/phone.png) no-repeat left center;
+	background: url(../images/phone.png) no-repeat left center;
 	background-size: contain;
 }
 
 .contact-details .email {
-	background: url(/images/mail.png) no-repeat left center;
+	background: url(../images/mail.png) no-repeat left center;
 	background-size: contain;
 }
 
 .contact-details .twitter {
-	background: url(/images/twitter.png) no-repeat left center;
+	background: url(../images/twitter.png) no-repeat left center;
 	background-size: contain;
 	padding-right: 10px;
 }
