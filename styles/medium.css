@@ -37,7 +37,7 @@
 .wrapper-header h1 {
     position: absolute;
     top: 3em;
-    left: 40px;
+    left: 3.25em;
     display: block;
     width: 60px;
     height: 65px;
@@ -50,7 +50,7 @@
 #nav {
 	position: absolute;
 	top: 3em;
-	left: 120px;
+	left: 9.5em;
 	width: 100%;
 	height: 2em;
 	padding-top: 1em;
@@ -60,20 +60,23 @@
 #nav ul {
 	width: 100%;
 	height: 100%;
-	border-top: 1px solid #397b8f;
+	/*border-top: 1px solid #397b8f;*/
 	margin: 0;
 	overflow: hidden;
 }
 
 #nav li {
 	float: left;
+	width: auto;
+	padding-right: 1.5em;
 	background-color: #ededed;
+	border-top: 1px solid #397b8f;
 }
 
 #nav ul a {
-	width: 8em;
+	/* width: 8em; */
 	display: block;
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -83,9 +86,23 @@
 	margin-right: auto;
 }
 
+section#differentiateurs {
+	overflow: hidden;
+}
+
 section#differentiateurs article {
 	width: 48.4%;
-	height: 17em;
+	
+	/* Adjust height of each DIV to content */
+	height: 100%;
+	overflow-y: hidden;
+	
+	/* Floating DIVs with the same height*/
+	/*padding-bottom: 500em;
+    margin-bottom: -500em;*/
+
+    /* Add IE fix? */
+	
 	float: left;
 	border-radius: 0 30px 10px 5px;
 }
